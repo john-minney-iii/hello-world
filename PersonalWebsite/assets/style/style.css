@@ -50,7 +50,6 @@ html, body {
 }
 .about h1 { font-family: 'Annie Use Your Telescope', cursive; }
 .about h2 { 
-    font-family: 'Annie Use Your Telescope', cursive; 
     font-size: 4rem; 
 }
 .about img {
@@ -66,6 +65,7 @@ html, body {
     font-size: 1rem; 
     opacity: 75%;
 }
+.about quote { font-size: 0.25rem; }
 .about p {
     font-family: 'Annie Use Your Telescope', cursive; 
     font-size: 1.5rem; 
@@ -78,4 +78,38 @@ html, body {
     text-decoration: none;
     margin: 5px 2px;
     color: white;
+}
+/* Experience */
+.parallax-two {
+    background-image: url(../img/altumcode-dC6Pb2JdAqs-unsplash.jpg);
+    min-height: 50%;
+}
+.experience {
+    min-height: 100%;
+    background-color: var(--github-grey);
+}
+.experience h2 { font-size: 4rem; }
+.experience-card {
+    background: none;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.experience-card h5 {
+    font-size: 2rem;
+}
+.experience-card p {
+    color: white;
+    font-family: 'Annie Use Your Telescope', cursive; 
+    font-size: 1.25rem;
+}
+.experience-card .card-sub {
+    opacity: 62.5%;
+}
+.experience-card .fa {
+    font-size: 1.5rem;
+    margin-right: 5px;
+}
+.parallax-three {
+    background-image: url(../img/emile-perron-xrVDYZRGdw4-unsplash.jpg);
+    min-height: 50%;
 }
