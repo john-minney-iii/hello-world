@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Open+Sans&display=swap');
+
+:root {
+    --github-grey: #333;
+}
+
+/* Global Styles */
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+.center-vert { 
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+.header-font { font-family: 'Amatic SC', cursive !important; }
+
+/* Parallax Backgrounds */
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-one {
+    background-image: url(../img/nubelson-fernandes--Xqckh_XVU4-unsplash.jpg);
+    min-height: 100%;
+}
+.parallax-one h1 {  
+    font-size: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* About */
+.about {
+    min-height: 100%;
+    background-color: var(--github-grey);
+}
+.about h1 { font-family: 'Annie Use Your Telescope', cursive; }
+.about h2 { 
+    font-family: 'Annie Use Your Telescope', cursive; 
+    font-size: 4rem; 
+}
+.about img {
+    height: auto;
+    width: 11rem;
+}
+.about h3 { 
+    font-family: 'Annie Use Your Telescope', cursive; 
+    font-size: 1.5rem; 
+}
+.about h4 { 
+    font-family: 'Annie Use Your Telescope', cursive; 
+    font-size: 1rem; 
+    opacity: 75%;
+}
+.about p {
+    font-family: 'Annie Use Your Telescope', cursive; 
+    font-size: 1.5rem; 
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: white;
+}
