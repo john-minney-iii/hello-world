@@ -130,7 +130,11 @@ html, body {
     font-size: 1.25rem;
 }
 .clickable-project-card {
+    color: white;
     text-decoration: none;
+}
+.clickable-project-card:hover {
+    color: white;
 }
 /* Posts */
 .parallax-four {
@@ -155,4 +159,21 @@ html, body {
     color: white;
     font-family: 'Annie Use Your Telescope', cursive; 
     font-size: 1.25rem;
+}
+
+/* Css Changes for Bigger Screens */
+@media only screen and (min-width: 600px) {
+    .parallax-one h1 {  
+        font-size: 10rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .projects .card {
+        height: auto;
+        width: 37.5%;
+    }
+    .posts .card {
+        height: auto;
+        width: 37.5%;
+    }
 }
