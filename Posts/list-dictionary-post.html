@@ -12,11 +12,12 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/blog/">
 
     <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"   
+            integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
-    <link href="assets/css/blog.css" rel="stylesheet">
+    <link href="./blog-assets/css/list-dictionary-post.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
   </head>
 
@@ -81,29 +82,22 @@
             <p class="mb-0">Experimentally determine the running time of list and dictionary operations in Python. At a minimum, determine the running time of inserting and deleting elements form the beginning, middle, and end of different length lists, and of determining if an element is in a list. Likewise, adding and deleting items to and from a dicitonary, and determining if an element is in a dicitonary.</p>
           </div>
 
-          <div id="archives" class="p-3">
-            <h4 class="font-italic">Archives</h4>
-            <ol class="list-unstyled mb-0">
-                <li><a href="https://github.com/john-minney-iii/CS301-Algo-and-datastructures/blob/master/CS301-Assignment-2/assignment2.py">Source Code</a></li>
-            </ol>
-          </div><!-- /.blog-sidebar -->
-
       </div><!-- /.row -->
 
     </main><!-- /.container -->
 
     <script>
-      const append_data = 'assets/data/list_append.csv';
-      const end_del_data = 'assets/data/list_end_del.csv';
-      const beg_add_data = 'assets/data/list_start_add.csv';
-      const beg_del_data = 'assets/data/list_start_del.csv';
-      const mid_add_data = 'assets/data/list_middle_add.csv';
-      const mid_del_data = 'assets/data/list_start_del.csv';
-      const list_in_data = 'assets/data/list_in.csv';
+      const append_data = './blog-assets/list-dictionary-post-data/list_append.csv';
+      const end_del_data = './blog-assets/list-dictionary-post-data/list_end_del.csv';
+      const beg_add_data = './blog-assets/list-dictionary-post-data/list_start_add.csv';
+      const beg_del_data = './blog-assets/list-dictionary-post-data/list_start_del.csv';
+      const mid_add_data = './blog-assets/list-dictionary-post-data/list_middle_add.csv';
+      const mid_del_data = './blog-assets/list-dictionary-post-data/list_start_del.csv';
+      const list_in_data = './blog-assets/list-dictionary-post-data/list_in.csv';
 
-      const dict_add_data = 'assets/data/dict_add.csv';
-      const dict_del_data = 'assets/data/dict_del.csv';
-      const dict_in_data = 'assets/data/dict_in.csv';
+      const dict_add_data = './blog-assets/list-dictionary-post-data/dict_add.csv';
+      const dict_del_data = './blog-assets/list-dictionary-post-data/dict_del.csv';
+      const dict_in_data = './blog-assets/list-dictionary-post-data/dict_in.csv';
 
       graphResults(append_data, 'append_chart', 'Run Times of List Append', 'rgba(255, 99, 132)');
       graphResults(end_del_data, 'end_del_chart', 'Run Times of List End Delete', 'rgb(0, 204, 255)');

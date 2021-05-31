@@ -45,7 +45,7 @@ html, body {
 
 /* About */
 .about {
-    min-height: 100%;
+    /* min-height: 100%; */
     background-color: var(--github-grey);
 }
 .about h1 { font-family: 'Annie Use Your Telescope', cursive; }
@@ -82,7 +82,7 @@ html, body {
 /* Experience */
 .parallax-two {
     background-image: url(../img/altumcode-dC6Pb2JdAqs-unsplash.jpg);
-    min-height: 50%;
+    min-height: 37.5%;
 }
 .experience {
     min-height: 100%;
@@ -105,11 +105,54 @@ html, body {
 .experience-card .card-sub {
     opacity: 62.5%;
 }
-.experience-card .fa {
-    font-size: 1.5rem;
-    margin-right: 5px;
-}
+/* Projects */
 .parallax-three {
     background-image: url(../img/emile-perron-xrVDYZRGdw4-unsplash.jpg);
-    min-height: 50%;
+    min-height: 37.5%;
+}
+.projects {
+    /* min-height: 100%; */
+    background-color: var(--github-grey);
+}
+.projects h2 { font-size: 4rem; }
+.projects .card {
+    background: none;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.projects .card img { border-radius: 10px;}
+.projects .card h5 {
+    font-size: 2rem;
+}
+.projects .card p {
+    color: white;
+    font-family: 'Annie Use Your Telescope', cursive; 
+    font-size: 1.25rem;
+}
+.clickable-project-card {
+    text-decoration: none;
+}
+/* Posts */
+.parallax-four {
+    background-image: url(../img/mohammad-rahmani-8OnkIkFBBtM-unsplash.jpg);
+    min-height: 37.5%;
+}
+.posts {
+    /* min-height: 100%; */
+    background-color: var(--github-grey);
+}
+.posts h2 { font-size: 4rem; }
+.posts .card {
+    background: none;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.posts .card img { border-radius: 10px;}
+.posts .card h5 {
+    font-size: 2rem;
+}
+.posts .card p {
+    color: white;
+    font-family: 'Annie Use Your Telescope', cursive; 
+    font-size: 1.25rem;
 }
